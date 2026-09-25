@@ -1,3 +1,7 @@
+⚠️ WARNING: This project is AI-generated, and is a **placeholder** for real editor support.
+
+---
+
 # zed-ilk
 
 Zed extension for [Ilk](../ilk): syntax highlighting for `.ilk` documents and `.ilkm` meta files, using the grammars in [tree-sitter-ilk](../tree-sitter-ilk).
