@@ -1,0 +1,16 @@
+id = "ilk"
+name = "Ilk"
+description = "Syntax highlighting for Ilk documents and meta files."
+version = "0.1.0"
+schema_version = 1
+authors = ["trnglina"]
+
+[grammars.ilk]
+repository = "file:///Users/trnglina/Developer/tree-sitter-ilk"
+rev = "12bd2b31e8d4483836f32b8ef1c6c561262f15bf"
+path = "ilk"
+
+[grammars.ilk_meta]
+repository = "file:///Users/trnglina/Developer/tree-sitter-ilk"
+rev = "12bd2b31e8d4483836f32b8ef1c6c561262f15bf"
+path = "ilk_meta"
