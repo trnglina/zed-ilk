@@ -6,6 +6,8 @@
 
 Zed extension for [Ilk](../ilk): syntax highlighting for `.ilk` documents and `.ilkm` meta files, using the grammars in [tree-sitter-ilk](../tree-sitter-ilk).
 
+Region split markers (`@|` and `@label|`) use the same punctuation and label highlighting as region opening and closing markers, including the `ilk.*` dimming overrides below.
+
 ## Install
 
 In Zed, run `zed: install dev extension` and pick this directory. Zed fetches and compiles the grammars itself; no other tooling is needed.
