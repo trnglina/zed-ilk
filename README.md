@@ -8,6 +8,8 @@ Zed extension for [Ilk](../ilk): syntax highlighting for `.ilk` documents and `.
 
 Region split markers (`@|` and `@label|`) use the same punctuation and label highlighting as region opening and closing markers, including the `ilk.*` dimming overrides below.
 
+Sequences (`[a, b]`) highlight and match their brackets like parentheses. In `.ilk` files, typing `[` does not auto-close, since it would also fire on the `@[` block opener.
+
 ## Install
 
 In Zed, run `zed: install dev extension` and pick this directory. Zed fetches and compiles the grammars itself; no other tooling is needed.

@@ -2,8 +2,9 @@ name = "Ilk"
 grammar = "ilk"
 path_suffixes = ["ilk"]
 word_characters = ["$", "?", "#"]
-autoclose_before = ";,|})"
+autoclose_before = ";,|})]"
 brackets = [
   { start = "(", end = ")", close = true, newline = false },
   { start = "{", end = "}", close = true, newline = false },
+  { start = "[", end = "]", close = false, newline = false },
 ]

@@ -7,10 +7,10 @@ authors = ["trnglina"]
 
 [grammars.ilk]
 repository = "file:///Users/trnglina/Developer/tree-sitter-ilk"
-rev = "ddd42d40d80387a15c421b48503ccb6ab91ea898"
+rev = "b62ef54cb9f4c6cbad4aaf27d9cf6b92b3e939ae"
 path = "ilk"
 
 [grammars.ilk_meta]
 repository = "file:///Users/trnglina/Developer/tree-sitter-ilk"
-rev = "ddd42d40d80387a15c421b48503ccb6ab91ea898"
+rev = "b62ef54cb9f4c6cbad4aaf27d9cf6b92b3e939ae"
 path = "ilk_meta"
