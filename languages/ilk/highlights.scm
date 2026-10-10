@@ -3,13 +3,12 @@
   "}"
   "@<"
   "@>"
-  "@|"
   "@["
+  "@]"
   "@"
   "<"
   ">"
   "|"
-  (block_close)
 ] @punctuation.special @ilk.punctuation.special
 
 (label) @label @ilk.label

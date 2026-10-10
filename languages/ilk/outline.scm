@@ -1,4 +1,4 @@
 (block_open
   "@[" @context
   .
-  (_) @name) @item
+  fact: (_) @name) @item

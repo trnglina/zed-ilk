@@ -1,16 +1,10 @@
 id = "ilk"
 name = "Ilk"
-description = "Syntax highlighting for Ilk documents and meta files."
+description = "Syntax highlighting for Ilk documents."
 version = "0.1.0"
 schema_version = 1
 authors = ["trnglina"]
 
 [grammars.ilk]
 repository = "file:///Users/trnglina/Developer/tree-sitter-ilk"
-rev = "b62ef54cb9f4c6cbad4aaf27d9cf6b92b3e939ae"
-path = "ilk"
-
-[grammars.ilk_meta]
-repository = "file:///Users/trnglina/Developer/tree-sitter-ilk"
-rev = "b62ef54cb9f4c6cbad4aaf27d9cf6b92b3e939ae"
-path = "ilk_meta"
+rev = "84dd4289f3ae976b061ebef129ddddac18da5ce0"

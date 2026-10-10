@@ -4,15 +4,13 @@
 
 # zed-ilk
 
-Zed extension for [Ilk](../ilk): syntax highlighting for `.ilk` documents and `.ilkm` meta files, using the grammars in [tree-sitter-ilk](../tree-sitter-ilk).
+Zed extension for [Ilk](../ilk): syntax highlighting for `.ilk` documents, using the grammar in [tree-sitter-ilk](../tree-sitter-ilk).
 
-Region split markers (`@|` and `@label|`) use the same punctuation and label highlighting as region opening and closing markers, including the `ilk.*` dimming overrides below.
-
-Sequences (`[a, b]`) highlight and match their brackets like parentheses. In `.ilk` files, typing `[` does not auto-close, since it would also fire on the `@[` block opener.
+Sequences (`[a, b]`) highlight and match their brackets like parentheses. Typing `[` does not auto-close, since it would also fire on the `@[` block opener.
 
 ## Install
 
-In Zed, run `zed: install dev extension` and pick this directory. Zed fetches and compiles the grammars itself; no other tooling is needed.
+In Zed, run `zed: install dev extension` and pick this directory. Zed fetches and compiles the grammar itself; no other tooling is needed.
 
 ## Dimming markup
 
@@ -45,11 +43,11 @@ Overrides are per theme, and there is no opacity setting for syntax, so dimmed c
 }
 ```
 
-`ilk` on its own covers punctuation, variables, and anything not listed. `.ilkm` files are all code, so the meta language has no `ilk.*` captures.
+`ilk` on its own covers punctuation, variables, and anything not listed.
 
 ## Updating the grammar
 
 1. Commit the change in `tree-sitter-ilk`.
-2. Update both `rev` fields in `extension.toml` to the new commit.
-3. Update the queries in `languages/` to match any node changes. These are maintained here, separately from the queries in `tree-sitter-ilk`.
+2. Update the `rev` field in `extension.toml` to the new commit.
+3. Update the queries in `languages/` to match any node changes. These are maintained here, separately from the query in `tree-sitter-ilk`.
 4. Rebuild the dev extension from the Extensions page.
