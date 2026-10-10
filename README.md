@@ -47,7 +47,7 @@ Overrides are per theme, and there is no opacity setting for syntax, so dimmed c
 
 ## Updating the grammar
 
-1. Commit the change in `tree-sitter-ilk`.
+1. Commit the change in `tree-sitter-ilk` and push it to GitHub.
 2. Update the `rev` field in `extension.toml` to the new commit.
 3. Update the queries in `languages/` to match any node changes. These are maintained here, separately from the query in `tree-sitter-ilk`.
 4. Rebuild the dev extension from the Extensions page.
